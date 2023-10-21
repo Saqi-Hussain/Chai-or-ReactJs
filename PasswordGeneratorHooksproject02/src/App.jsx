@@ -45,7 +45,7 @@ function App() {
             readOnly
             value={password}
             placeholder="Password"
-            className="rounded-l-xl w-4/5 h-10 cursor-pointer p-2 text-orange-600"
+            className="rounded-l-xl w-4/5 h-10 cursor-pointer p-2 text-pink-600"
             ref={passwordRef}
           />
           <button className="bg-blue-800 pl-10 pr-9 rounded-r-xl "onClick={copyPasswordToClipboard}>Copy</button>
